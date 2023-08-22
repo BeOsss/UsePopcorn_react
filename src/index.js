@@ -9,7 +9,31 @@ import StarRating from "./StarRating";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
-		<App />
+		<App />, //{" "}
+		{/*<StarRating
+	// 		maxRating={5}
+	// 		color='#fa5252'
+	// 		messages={["Worst", "Bad", "Good", "Better", "Best"]}
+	// 	/>
+	// 	<StarRating
+	// 		maxRating={10}
+	// 		color='#dea'
+	// 		size={20}
+	// 		messages={[
+	// 			"Worst",
+	// 			"Bad",
+	// 			"Good",
+	// 			"Better",
+	// 			"Best",
+	// 			"Worst",
+	// 			"Bad",
+	// 			"Good",
+	// 			"Better",
+	// 			"Best",
+	// 		]}
+	// 		defaultRating={1}
+	// 	/>
+	// 	<Test></Test> */}
 	</React.StrictMode>,
 );
 
